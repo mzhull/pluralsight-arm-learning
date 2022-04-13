@@ -37,5 +37,4 @@ jobs:
           parameters: 
             ./arm-templates/storageaccount.parameters.json
             storageAccountName=learningstor002
-            location=West US 2
           deploymentMode: incremental
