@@ -34,5 +34,8 @@ jobs:
           resourceGroupName: rg-githubactions
           subscriptionId: cfbb1f92-dbc1-4688-833a-beb14362c6e6
           template: ./arm-templates/storageaccount.json
-          parameters: ./arm-templates/storageaccount.parameters.json
+          parameters: 
+            ./arm-templates/storageaccount.parameters.json
+            storageAccountName=learningstor002
+            location=West US 2
           deploymentMode: incremental
